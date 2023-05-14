@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CombinationLock : MonoBehaviour
 {
-    private BoxCollider2D boxCol2D;
+    [SerializeField] private GameObject lockedObject;
+
     [SerializeField] private GameObject roller1;
     [SerializeField] private int roller1Answer;
     [SerializeField] private GameObject roller2;
@@ -18,7 +19,7 @@ public class CombinationLock : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        boxCol2D = GetComponent<BoxCollider2D>();
+        //interactionWithItem = GetComponent<InteractionWithItem>();
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class CombinationLock : MonoBehaviour
 
     }
 
-    private void OnMouseDown()
+    public void CheckCombo()
     {
         print("click");
 
@@ -46,6 +47,9 @@ public class CombinationLock : MonoBehaviour
             roller4State == roller4Answer)
         {
             print("correct");
+
+            InteractionWithItem interactionWithItem = lockedObject.GetComponent<InteractionWithItem>();
+            interactionWithItem.InteractionFunction();
         }
 
     }

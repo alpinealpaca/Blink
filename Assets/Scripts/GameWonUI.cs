@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameWonUI : MonoBehaviour
 {
-    public void Setup(int Timegone)
+    public void Setup()
     {
         gameObject.SetActive(true);
         //cleanCountText.text = Score.ToString() + " Points";

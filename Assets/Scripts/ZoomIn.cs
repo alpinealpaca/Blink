@@ -9,12 +9,12 @@ public class ZoomIn : MonoBehaviour
     public void Setup()
     {
         gameObject.SetActive(true);
-        Debug.Log("look at this cool rotation!");
+        Debug.Log("Zoom!");
     }
 
     public void Leave()
     {
-        //PauseScreen.gameObject.SetActive(false);
+        gameObject.SetActive(false);
 
     }
 

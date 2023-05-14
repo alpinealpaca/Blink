@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CombinationRoller : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    private Image image;
     private BoxCollider2D boxCol2D;
 
     public int rollerState = 0;
@@ -14,7 +15,7 @@ public class CombinationRoller : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        image = GetComponent<Image>();
         boxCol2D = GetComponent<BoxCollider2D>();
     }
 
@@ -24,7 +25,7 @@ public class CombinationRoller : MonoBehaviour
         
     }
 
-    private void OnMouseDown()
+    public void Roll()
     {
         rollerState += 1;
 
@@ -34,6 +35,6 @@ public class CombinationRoller : MonoBehaviour
         }
         print(rollerState);
 
-        spriteRenderer.sprite = spriteArray[rollerState];
+        image.sprite = spriteArray[rollerState];
     }
 }
