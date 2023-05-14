@@ -35,11 +35,11 @@ public class UseSpecificItem : MonoBehaviour
         {
             print("Use!");
 
-            //objectState.spriteArray = newSpriteArray;
+            objectState.spriteArray = newSpriteArray;
 
             BlinkTimer blinkTimer = gameManager.GetComponent<BlinkTimer>();
             int totalBlinks = blinkTimer.totalBlinks;
-            //objectState.ProgressState(totalBlinks);
+            objectState.ProgressState(totalBlinks);
 
 
             interactionWithItem.InteractionFunction();
