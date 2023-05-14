@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8194106}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 11.14, y: -0.96, z: 4.49}
+  m_LocalPosition: {x: 11.14, y: -0.96, z: 1.4699996}
   m_LocalScale: {x: 0.051674, y: 0.07, z: 0.07}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -552,7 +552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &146357762
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2369,7 +2369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552874835}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 9.08, y: -5.77, z: 6.32}
+  m_LocalPosition: {x: 9.08, y: -5.77, z: 3.3}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3119,14 +3119,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675528834}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &675528838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5827,7 +5827,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 199, y: 0}
+  m_AnchoredPosition: {x: 199, y: -59.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102446760
@@ -6536,7 +6536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 199, y: -107}
+  m_AnchoredPosition: {x: 199, y: -138.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1386912066
@@ -6668,7 +6668,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -193.6044, y: 1.5207}
+  m_AnchoredPosition: {x: -210.5, y: -6.8}
   m_SizeDelta: {x: 367.8092, y: 430.3415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398578034
@@ -6691,11 +6691,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The winning victory text goes here.....
-
-    blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-
-'
+  m_text: "When I left the room the other side was pitch black. I heard a man through
+    a speaker referring to me as \u2018test subject\u2019. I was feeling around the
+    room for any exit, then I saw a bright red light on the ceiling. It began to
+    flash and a loud siren noises was blasting in the room. I held onto my ears as
+    I felt 2 people grab my arms, I couldn't see or hear where I was going next...\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a752f74c4f17dc147b7b99f3b4d35633, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e0ecd9383c829944aa44f664e6d64538, type: 2}
@@ -6722,8 +6722,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20.65
+  m_fontSizeBase: 20.65
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6732,7 +6732,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 5.5
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -6807,7 +6807,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 198.83, y: -68}
+  m_AnchoredPosition: {x: 198.83, y: -111.4}
   m_SizeDelta: {x: 397.6662, y: 119.6275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429895364
@@ -6830,7 +6830,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HUZZAH
+  m_text: 'YOU
+
+    ESCAPED'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a752f74c4f17dc147b7b99f3b4d35633, type: 2}
   m_sharedMaterial: {fileID: 3334629700181574668, guid: a752f74c4f17dc147b7b99f3b4d35633, type: 2}
@@ -6857,8 +6859,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 83.9
+  m_fontSizeBase: 83.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6869,7 +6871,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -50.23
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -6993,7 +6995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527000188}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 11.831, y: -1.89, z: 6.32}
+  m_LocalPosition: {x: 11.831, y: -1.89, z: 3.3}
   m_LocalScale: {x: 0.52452946, y: 0.9342, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7649,7 +7651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745897410}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 11.43, y: 0.7, z: 4.42}
+  m_LocalPosition: {x: 11.43, y: 0.7, z: 1.3999999}
   m_LocalScale: {x: 0.26, y: 0.26, z: 0.26}
   m_ConstrainProportionsScale: 1
   m_Children: []
