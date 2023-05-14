@@ -21,7 +21,6 @@ public class ContainsItem : MonoBehaviour
 
     public void RevealItem()
     {
-        print("Tada! " + itemRevealed);
 
         if (itemRevealed == false)
         {
