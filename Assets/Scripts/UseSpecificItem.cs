@@ -23,7 +23,7 @@ public class UseSpecificItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnMouseDown()
@@ -33,11 +33,13 @@ public class UseSpecificItem : MonoBehaviour
 
         if (cursorState == item)
         {
-            objectState.spriteArray = newSpriteArray;
+            print("Use!");
+
+            //objectState.spriteArray = newSpriteArray;
 
             BlinkTimer blinkTimer = gameManager.GetComponent<BlinkTimer>();
             int totalBlinks = blinkTimer.totalBlinks;
-            objectState.ProgressState(totalBlinks);
+            //objectState.ProgressState(totalBlinks);
 
 
             interactionWithItem.InteractionFunction();
